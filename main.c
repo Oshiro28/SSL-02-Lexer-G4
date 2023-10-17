@@ -19,8 +19,8 @@ int main(int argc, char **argv) {
             estado_actual = 0;
             linea++;
             columna = 1;
-            continue;
             i++;
+            continue;
         }
         if (x == ' ' || x == '\t') {
             columna++;
@@ -62,6 +62,6 @@ int main(int argc, char **argv) {
             //j++;
         }
     } 
-
+    
     return 0;
 }
