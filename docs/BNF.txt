@@ -1,0 +1,32 @@
+Alfabeto:
+{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, +, -, *, /, (, )}
+
+expresion:  constanteNumerica
+            expresion   operador
+            expresion   constanteNumerica
+            operador
+
+constanteNumerica:  uno de  0 1 2 3 4 5 6 7 8 9
+operador:   uno de  + - * / ( )
+
+Ejemplo:
+6*7*(11-1)
+expresion
+expresion operador
+expresion constanteNumerica operador
+expresion operador constanteNumerica operador
+expresion constanteNumerica operador constanteNumerica operador
+expresion constanteNumerica constanteNumerica operador constanteNumerica operador
+expresion operador constanteNumerica constanteNumerica operador constanteNumerica operador
+expresion operador operador constanteNumerica constanteNumerica operador constanteNumerica operador
+expresion constanteNumerica operador operador constanteNumerica constanteNumerica operador constanteNumerica operador
+expresion operador constanteNumerica operador operador constanteNumerica constanteNumerica operador constanteNumerica operador
+constanteNumerica operador constanteNumerica operador operador constanteNumerica constanteNumerica operador constanteNumerica operador
+        6             *            7             *       (             1                 1            -             1             )
+
+2+2
+expresion
+expresion constanteNumerica
+expresion operador constanteNumerica
+constanteNumerica operador constanteNumerica
+        2            +             2
